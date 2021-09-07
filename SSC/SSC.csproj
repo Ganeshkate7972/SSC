@@ -165,6 +165,31 @@
     <Content Include="Account\ResetPasswordConfirmation.aspx" />
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
+    <Content Include="assets\css\demo.css" />
+    <Content Include="assets\css\fresh-bootstrap-table.css" />
+    <Content Include="assets\img\bg.jpg" />
+    <Content Include="assets\img\compact.jpg" />
+    <Content Include="assets\img\favicon.ico" />
+    <Content Include="assets\img\full.jpg" />
+    <Content Include="assets\img\mask.png" />
+    <Content Include="assets\img\new_logo.png" />
+    <Content Include="assets\js\demo\demo.js" />
+    <Content Include="assets\js\demo\gsdk-switch.js" />
+    <Content Include="assets\js\demo\jquery.sharrre.js" />
+    <Content Include="Besic_Master\AddBord.aspx" />
+    <Content Include="Besic_Master\assets\css\demo.css" />
+    <Content Include="Besic_Master\assets\css\fresh-bootstrap-table.css" />
+    <Content Include="Besic_Master\assets\img\bg.jpg" />
+    <Content Include="Besic_Master\assets\img\compact.jpg" />
+    <Content Include="Besic_Master\assets\img\favicon.ico" />
+    <Content Include="Besic_Master\assets\img\full.jpg" />
+    <Content Include="Besic_Master\assets\img\mask.png" />
+    <Content Include="Besic_Master\assets\img\new_logo.png" />
+    <Content Include="Besic_Master\assets\js\demo\demo.js" />
+    <Content Include="Besic_Master\assets\js\demo\gsdk-switch.js" />
+    <Content Include="Besic_Master\assets\js\demo\jquery.sharrre.js" />
+    <Content Include="Besic_Master\BordList.aspx" />
+    <Content Include="Besic_Master\Default.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -173,6 +198,22 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fresh-bootstrap-table-master\assets\css\demo.css" />
+    <Content Include="fresh-bootstrap-table-master\assets\css\fresh-bootstrap-table.css" />
+    <Content Include="fresh-bootstrap-table-master\assets\img\bg.jpg" />
+    <Content Include="fresh-bootstrap-table-master\assets\img\compact.jpg" />
+    <Content Include="fresh-bootstrap-table-master\assets\img\favicon.ico" />
+    <Content Include="fresh-bootstrap-table-master\assets\img\full.jpg" />
+    <Content Include="fresh-bootstrap-table-master\assets\img\mask.png" />
+    <Content Include="fresh-bootstrap-table-master\assets\img\new_logo.png" />
+    <Content Include="fresh-bootstrap-table-master\assets\js\demo\demo.js" />
+    <Content Include="fresh-bootstrap-table-master\assets\js\demo\gsdk-switch.js" />
+    <Content Include="fresh-bootstrap-table-master\assets\js\demo\jquery.sharrre.js" />
+    <Content Include="fresh-bootstrap-table-master\compact-table.html" />
+    <Content Include="fresh-bootstrap-table-master\fresh-table-tutorial.html" />
+    <Content Include="fresh-bootstrap-table-master\full-screen-table.html" />
+    <Content Include="fresh-table-tutorial.html" />
+    <Content Include="full-screen-table.html" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -184,6 +225,74 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Account\Web.config" />
     <Content Include="Main.Master" />
+    <Content Include="Besic_Master\Besic.Master" />
+    <Content Include="fresh-bootstrap-table-master\assets\css\fresh-bootstrap-table.css.map" />
+    <Content Include="fresh-bootstrap-table-master\assets\sass\fbt\mixins\_buttons.scss" />
+    <Content Include="fresh-bootstrap-table-master\assets\sass\fbt\mixins\_cards.scss" />
+    <Content Include="fresh-bootstrap-table-master\assets\sass\fbt\mixins\_icons.scss" />
+    <Content Include="fresh-bootstrap-table-master\assets\sass\fbt\mixins\_inputs.scss" />
+    <Content Include="fresh-bootstrap-table-master\assets\sass\fbt\mixins\_labels.scss" />
+    <Content Include="fresh-bootstrap-table-master\assets\sass\fbt\mixins\_morphing-buttons.scss" />
+    <Content Include="fresh-bootstrap-table-master\assets\sass\fbt\mixins\_navbars.scss" />
+    <Content Include="fresh-bootstrap-table-master\assets\sass\fbt\mixins\_social-buttons.scss" />
+    <Content Include="fresh-bootstrap-table-master\assets\sass\fbt\mixins\_tabs.scss" />
+    <Content Include="fresh-bootstrap-table-master\assets\sass\fbt\mixins\_transparency.scss" />
+    <Content Include="fresh-bootstrap-table-master\assets\sass\fbt\mixins\_vendor-prefixes.scss" />
+    <Content Include="fresh-bootstrap-table-master\assets\sass\fbt\_bootstrap-table-base.scss" />
+    <Content Include="fresh-bootstrap-table-master\assets\sass\fbt\_buttons.scss" />
+    <Content Include="fresh-bootstrap-table-master\assets\sass\fbt\_dropdown.scss" />
+    <Content Include="fresh-bootstrap-table-master\assets\sass\fbt\_fresh-bootstrap-table.scss" />
+    <Content Include="fresh-bootstrap-table-master\assets\sass\fbt\_inputs.scss" />
+    <Content Include="fresh-bootstrap-table-master\assets\sass\fbt\_misc.scss" />
+    <Content Include="fresh-bootstrap-table-master\assets\sass\fbt\_mixins.scss" />
+    <Content Include="fresh-bootstrap-table-master\assets\sass\fbt\_typography.scss" />
+    <Content Include="fresh-bootstrap-table-master\assets\sass\fbt\_variables.scss" />
+    <Content Include="fresh-bootstrap-table-master\assets\sass\fresh-bootstrap-table.scss" />
+    <Content Include="assets\css\fresh-bootstrap-table.css.map" />
+    <Content Include="assets\sass\fbt\mixins\_buttons.scss" />
+    <Content Include="assets\sass\fbt\mixins\_cards.scss" />
+    <Content Include="assets\sass\fbt\mixins\_icons.scss" />
+    <Content Include="assets\sass\fbt\mixins\_inputs.scss" />
+    <Content Include="assets\sass\fbt\mixins\_labels.scss" />
+    <Content Include="assets\sass\fbt\mixins\_morphing-buttons.scss" />
+    <Content Include="assets\sass\fbt\mixins\_navbars.scss" />
+    <Content Include="assets\sass\fbt\mixins\_social-buttons.scss" />
+    <Content Include="assets\sass\fbt\mixins\_tabs.scss" />
+    <Content Include="assets\sass\fbt\mixins\_transparency.scss" />
+    <Content Include="assets\sass\fbt\mixins\_vendor-prefixes.scss" />
+    <Content Include="assets\sass\fbt\_bootstrap-table-base.scss" />
+    <Content Include="assets\sass\fbt\_buttons.scss" />
+    <Content Include="assets\sass\fbt\_dropdown.scss" />
+    <Content Include="assets\sass\fbt\_fresh-bootstrap-table.scss" />
+    <Content Include="assets\sass\fbt\_inputs.scss" />
+    <Content Include="assets\sass\fbt\_misc.scss" />
+    <Content Include="assets\sass\fbt\_mixins.scss" />
+    <Content Include="assets\sass\fbt\_typography.scss" />
+    <Content Include="assets\sass\fbt\_variables.scss" />
+    <Content Include="assets\sass\fresh-bootstrap-table.scss" />
+    <Content Include="Besic_Master\assets\css\fresh-bootstrap-table.css.map" />
+    <Content Include="Besic_Master\assets\sass\fbt\mixins\_buttons.scss" />
+    <Content Include="Besic_Master\assets\sass\fbt\mixins\_cards.scss" />
+    <Content Include="Besic_Master\assets\sass\fbt\mixins\_icons.scss" />
+    <Content Include="Besic_Master\assets\sass\fbt\mixins\_inputs.scss" />
+    <Content Include="Besic_Master\assets\sass\fbt\mixins\_labels.scss" />
+    <Content Include="Besic_Master\assets\sass\fbt\mixins\_morphing-buttons.scss" />
+    <Content Include="Besic_Master\assets\sass\fbt\mixins\_navbars.scss" />
+    <Content Include="Besic_Master\assets\sass\fbt\mixins\_social-buttons.scss" />
+    <Content Include="Besic_Master\assets\sass\fbt\mixins\_tabs.scss" />
+    <Content Include="Besic_Master\assets\sass\fbt\mixins\_transparency.scss" />
+    <Content Include="Besic_Master\assets\sass\fbt\mixins\_vendor-prefixes.scss" />
+    <Content Include="Besic_Master\assets\sass\fbt\_bootstrap-table-base.scss" />
+    <Content Include="Besic_Master\assets\sass\fbt\_buttons.scss" />
+    <Content Include="Besic_Master\assets\sass\fbt\_dropdown.scss" />
+    <Content Include="Besic_Master\assets\sass\fbt\_fresh-bootstrap-table.scss" />
+    <Content Include="Besic_Master\assets\sass\fbt\_inputs.scss" />
+    <Content Include="Besic_Master\assets\sass\fbt\_misc.scss" />
+    <Content Include="Besic_Master\assets\sass\fbt\_mixins.scss" />
+    <Content Include="Besic_Master\assets\sass\fbt\_typography.scss" />
+    <Content Include="Besic_Master\assets\sass\fbt\_variables.scss" />
+    <Content Include="Besic_Master\assets\sass\fresh-bootstrap-table.scss" />
+    <Content Include="Besic_Master\EditMaster.Master" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -324,9 +433,47 @@
       <DependentUpon>VerifyPhoneNumber.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\DataBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Besic_Master\AddBord.aspx.cs">
+      <DependentUpon>AddBord.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Besic_Master\AddBord.aspx.designer.cs">
+      <DependentUpon>AddBord.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Besic_Master\Besic.Master.cs">
+      <DependentUpon>Besic.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Besic_Master\Besic.Master.designer.cs">
+      <DependentUpon>Besic.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Besic_Master\BordList.aspx.cs">
+      <DependentUpon>BordList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Besic_Master\BordList.aspx.designer.cs">
+      <DependentUpon>BordList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Besic_Master\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Besic_Master\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Besic_Master\EditMaster.Master.cs">
+      <DependentUpon>EditMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Besic_Master\EditMaster.Master.designer.cs">
+      <DependentUpon>EditMaster.Master</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
