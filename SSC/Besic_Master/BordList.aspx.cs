@@ -42,13 +42,13 @@ namespace SSC.Besic_Master
                 
                 if(dr.GetBoolean(2) == false)
                 {
-                    Delete = "";
+                    Delete = "-";
                 }
                 else if(dr.GetBoolean(2) == true)
                 {
-                    Delete = "fas fa-ban fa-2x";
+                    Delete = "Deleted";
                 }
-                htmlStr += "<tr style='padding-left:100px'><td>" +id++ + "</td><td>" + Name + "</td><td><i class='" + Delete + "'></i></td><td><a href='AddBord?id=" + Edit+ "'><i class='fas fa-edit fa-2x'></i></a></td></tr>";
+                htmlStr += "<tr style='padding-left:100px'><td>" +id++ + "</td><td>" + Name + "</td><td>" + Delete + "</td><td><a href='AddBord?id=" + Edit+ "'><i class='fas fa-edit fa-2x'></i></a></td></tr>";
             }
                 con.Close();
             return htmlStr;
