@@ -8,7 +8,8 @@
                 <div class="col-md-8 col-md-offset-2">
                     <div class="fresh-table full-color-orange">
                         <div class="toolbar">
-                            <button id="alertBtn" class="btn btn-default">Alert</button>
+                            <%--<button id="alertBtn" class="btn btn-default">Alert</button>--%>
+                            <asp:Button ID="Button1" runat="server"  CssClass="btn btn-default" Text="Add" />
                         </div>
                         <table id="fresh-table" class="table">
                             <thead>

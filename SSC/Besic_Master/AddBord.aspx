@@ -13,7 +13,7 @@
                             <label for="inlineFormInput">Name</label>
                         </div>
                         <div class="col-auto">
-                            <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Name">
+                            <input type="text" class="form-control mb-2" id="inlineFormInput" required placeholder="Name">
                         </div>
                         <div class="col-auto">
                             <button type="submit" class="btn btn-primary mb-2">Submit</button>
