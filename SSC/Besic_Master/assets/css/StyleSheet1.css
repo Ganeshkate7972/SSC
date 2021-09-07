@@ -1,0 +1,8 @@
+﻿body {
+    background: #938982; /* Old browsers */
+    background: url('../img/image.jpeg');
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}

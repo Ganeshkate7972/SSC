@@ -179,10 +179,12 @@
     <Content Include="Besic_Master\AddBord.aspx" />
     <Content Include="Besic_Master\assets\css\demo.css" />
     <Content Include="Besic_Master\assets\css\fresh-bootstrap-table.css" />
+    <Content Include="Besic_Master\assets\css\StyleSheet1.css" />
     <Content Include="Besic_Master\assets\img\bg.jpg" />
     <Content Include="Besic_Master\assets\img\compact.jpg" />
     <Content Include="Besic_Master\assets\img\favicon.ico" />
     <Content Include="Besic_Master\assets\img\full.jpg" />
+    <Content Include="Besic_Master\assets\img\image.jpeg" />
     <Content Include="Besic_Master\assets\img\mask.png" />
     <Content Include="Besic_Master\assets\img\new_logo.png" />
     <Content Include="Besic_Master\assets\js\demo\demo.js" />
