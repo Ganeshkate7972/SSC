@@ -11,7 +11,7 @@ using SSC.App_Start;
 
 namespace SSC.Besic_Master
 {
-    public partial class AddBord : DataBase
+    public partial class AddSubcitylists : DataBase
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -24,8 +24,9 @@ namespace SSC.Besic_Master
                 if (Qry != "")
                 {
                     ViewState["Qry"] = Qry;
+                    BindDropDown();
                     GetData();
-                    
+
                 }
 
 
@@ -37,14 +38,15 @@ namespace SSC.Besic_Master
             DataBase db = new DataBase();
             string Qry = Request.QueryString["ID"];
             //string str = "select * from SMS_CLIENTSTATUS_MASTER where CSM_ID='" + Qry + "'";
-            SqlDataReader dr = ExecuteSqlDataReader("BordGETDATA", new SqlParameter("@ID", Qry));
+            SqlDataReader dr = ExecuteSqlDataReader("TalGETDATA", new SqlParameter("@ID", Qry));
             while (dr.Read())
             {
 
-                Name.Text = dr["BordName"].ToString();
-                CheckBox1.Checked = dr.GetBoolean(2);
+                Name.Text = dr["TalName"].ToString();
+                CheckBox1.Checked = dr.GetBoolean(4);
+                City.SelectedValue = dr["DistrictId"].ToString();
                 Label2.Visible = true;
-                Label1.Text = "Edit Class";
+                Label1.Text = "Edit Sub City";
             }
 
         }
@@ -57,26 +59,23 @@ namespace SSC.Besic_Master
                 string ID = Convert.ToString(ViewState["Qry"]);
                 //string query = "Insert Into VMPCountryMaster(Name,Status,CreatedBy) values(@name,@Status,@CreatedBy)";
                 //SqlCommand cm = new SqlCommand(query, con);
-                SqlCommand cm = new SqlCommand("BordInsertUpdate", con);
+                SqlCommand cm = new SqlCommand("TalInsertUpdate", con);
                 cm.CommandType = CommandType.StoredProcedure;
                 cm.Parameters.AddWithValue("@ID", ID);
                 cm.Parameters.AddWithValue("@Name", Name.Text);
+                cm.Parameters.AddWithValue("@District", City.SelectedValue);
                 if (CheckBox1.Checked)
                 {
                     cm.Parameters.AddWithValue("@Isdelete", 1);
-
-
                 }
                 else if (!CheckBox1.Checked)
                 {
                     cm.Parameters.AddWithValue("@Isdelete", 0);
-
-
                 }
                 con.Open();
                 cm.ExecuteNonQuery();
                 con.Close();
-                ClientScript.RegisterStartupScript(this.Page.GetType(), "validation", "<script language='javascript'>swal({title:'Data is successfully save',icon:'success'}).then(function() {window.location = 'BordList';});</script>");
+                ClientScript.RegisterStartupScript(this.Page.GetType(), "validation", "<script language='javascript'>swal({title:'Data is successfully save',icon:'success'}).then(function() {window.location = 'SubcityLists';});</script>");
 
 
             }
@@ -91,7 +90,7 @@ namespace SSC.Besic_Master
             //AddUpdateData();
             string ID = Convert.ToString(ViewState["Qry"]);
             List<string> locationList = new List<string>();
-            DataTable dt = ExecuteDataTable("BordNameCKList", new SqlParameter("@ID", ID));
+            DataTable dt = ExecuteDataTable("TalNameCKList", new SqlParameter("@ID", ID));
             for (int i = 0; i < dt.Rows.Count; i++)
             {
                 locationList.Add(Convert.ToString(dt.Rows[i].ItemArray[0]).ToUpper());
@@ -124,7 +123,17 @@ namespace SSC.Besic_Master
             }
         }
 
-
+        public void BindDropDown()
+        {
+            DataTable city = spDataTable("DropDownList_Districtbystates");
+            City.Items.Clear();
+            City.DataSource = city;
+            City.DataTextField = "Name";
+            City.DataValueField = "ID";
+            City.DataBind();
+            City.Items.Insert(0, new ListItem("All", ""));
+            City.SelectedIndex = 0;
+        }
 
     }
 }

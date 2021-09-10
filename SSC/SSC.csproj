@@ -177,6 +177,8 @@
     <Content Include="assets\js\demo\gsdk-switch.js" />
     <Content Include="assets\js\demo\jquery.sharrre.js" />
     <Content Include="Besic_Master\AddBord.aspx" />
+    <Content Include="Besic_Master\AddDistrict.aspx" />
+    <Content Include="Besic_Master\AddSubcitylists.aspx" />
     <Content Include="Besic_Master\assets\css\demo.css" />
     <Content Include="Besic_Master\assets\css\fresh-bootstrap-table.css" />
     <Content Include="Besic_Master\assets\css\StyleSheet1.css" />
@@ -192,6 +194,8 @@
     <Content Include="Besic_Master\assets\js\demo\jquery.sharrre.js" />
     <Content Include="Besic_Master\BordList.aspx" />
     <Content Include="Besic_Master\Default.aspx" />
+    <Content Include="Besic_Master\DistrictLists.aspx" />
+    <Content Include="Besic_Master\Subcitylists.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -448,6 +452,20 @@
     <Compile Include="Besic_Master\AddBord.aspx.designer.cs">
       <DependentUpon>AddBord.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Besic_Master\AddDistrict.aspx.cs">
+      <DependentUpon>AddDistrict.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Besic_Master\AddDistrict.aspx.designer.cs">
+      <DependentUpon>AddDistrict.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Besic_Master\AddSubcitylists.aspx.cs">
+      <DependentUpon>AddSubcitylists.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Besic_Master\AddSubcitylists.aspx.designer.cs">
+      <DependentUpon>AddSubcitylists.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Besic_Master\Besic.Master.cs">
       <DependentUpon>Besic.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -469,12 +487,26 @@
     <Compile Include="Besic_Master\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Besic_Master\DistrictLists.aspx.cs">
+      <DependentUpon>DistrictLists.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Besic_Master\DistrictLists.aspx.designer.cs">
+      <DependentUpon>DistrictLists.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Besic_Master\EditMaster.Master.cs">
       <DependentUpon>EditMaster.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Besic_Master\EditMaster.Master.designer.cs">
       <DependentUpon>EditMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Besic_Master\Subcitylists.aspx.cs">
+      <DependentUpon>Subcitylists.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Besic_Master\Subcitylists.aspx.designer.cs">
+      <DependentUpon>Subcitylists.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>

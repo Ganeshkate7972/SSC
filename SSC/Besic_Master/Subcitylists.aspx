@@ -1,6 +1,5 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Besic_Master/Besic.Master" AutoEventWireup="true" CodeBehind="BordList.aspx.cs" Inherits="SSC.Besic_Master.BordList" %>
-
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Besic_Master/Besic.Master" AutoEventWireup="true" CodeBehind="Subcitylists.aspx.cs" Inherits="SSC.Besic_Master.Subcitylists" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
     <div class="wrapper">
         <div class="container">
@@ -65,6 +64,7 @@
             </ul>
         </div>
     </div>
+
 
 
 </asp:Content>

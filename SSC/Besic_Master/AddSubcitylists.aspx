@@ -1,16 +1,25 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Besic_Master/EditMaster.Master" AutoEventWireup="true" CodeBehind="AddBord.aspx.cs" Inherits="SSC.Besic_Master.AddBord" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Besic_Master/EditMaster.Master" AutoEventWireup="true" CodeBehind="AddSubcitylists.aspx.cs" Inherits="SSC.Besic_Master.AddSubcitylists" %>
 
-
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+
     <form id="form1" runat="server">
         <div class="container" style="height: 76vh">
             <div class="row h-100 justify-content-center align-items-center">
                 <div class="form-row  align-items-center">
                     <div class="card text-white bg-dark mb-3">
                         <div class="card-header">
-                            <asp:Label ID="Label1" runat="server" Text="Add Class"></asp:Label>
+                            <asp:Label ID="Label1" runat="server" Text="Add Sub City"></asp:Label>
                         </div>
                         <div class="row card-body">
+                            <div class="col-auto">
+                                <label for="Name">Select City</label>
+                            </div>
+                            <div class="col-auto">
+                                <asp:DropDownList ID="City" runat="server" class="form-control mb-2" required ></asp:DropDownList>
+                                <%--<asp:TextBox class="form-control mb-2" required placeholder="Name" ID="TextBox1" runat="server"></asp:TextBox>--%>
+                            </div>
                             <div class="col-auto">
                                 <label for="Name">Name</label>
                             </div>
@@ -27,8 +36,9 @@
                                     .abcd::after {
                                         content: "Active";
                                     }
-                                    .mng{
-                                        opacity:.5;
+
+                                    .mng {
+                                        opacity: .5;
                                     }
                                 </style>
                             </div>
@@ -36,14 +46,14 @@
                                 <asp:Button ID="Button1" class="btn btn-primary mb-2" runat="server" OnClick="Button1_Click" Text="Submit" />
                             </div>
                             <div class="col-auto">
-                                <a href="BordList.aspx" class="btn btn-primary mb-2">Back</a>
+                                <a href="SubcityLists.aspx" class="btn btn-primary mb-2">Back</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-
     </form>
+
+
 </asp:Content>

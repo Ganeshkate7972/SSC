@@ -1,7 +1,6 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Besic_Master/Besic.Master" AutoEventWireup="true" CodeBehind="BordList.aspx.cs" Inherits="SSC.Besic_Master.BordList" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Besic_Master/Besic.Master" AutoEventWireup="true" CodeBehind="DistrictLists.aspx.cs" Inherits="SSC.Besic_Master.DistrictLists" %>
 
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="wrapper">
         <div class="container">
             <div class="row">
@@ -9,7 +8,7 @@
                     <div class="fresh-table full-color-orange">
                         <div class="toolbar">
                             <%--<button id="alertBtn" class="btn btn-default">Alert</button>--%>
-                            <asp:Button ID="Button1" runat="server"  CssClass="btn btn-default" OnClick="Button1_Click" Text="Add" />
+                            <asp:Button ID="Button1" runat="server" CssClass="btn btn-default" Text="Add" OnClick="Button1_Click" />
                         </div>
                         <table id="fresh-table" class="table">
                             <thead>
@@ -22,7 +21,6 @@
                             <tbody>
 
                                 <%=getWhileLoopData()%>
-                              
                             </tbody>
                         </table>
                     </div>
@@ -61,7 +59,6 @@
                         <div class="clearfix"></div>
                     </a>
                 </li>
-
             </ul>
         </div>
     </div>
